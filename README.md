@@ -34,4 +34,5 @@ terraform plan
 <code> 
 terraform apply 
 </code>
-  
+ 
+ Note: I took the time I had to setup 2 replication servers  

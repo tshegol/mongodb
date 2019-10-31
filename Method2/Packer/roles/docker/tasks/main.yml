@@ -24,6 +24,6 @@
     - docker-ce
 
 - copy:
-    src: 05.update-docker.sh
+    src: docker-tables.sh
     dest: "{{cloud_user_script_path}}/"
     mode: 0755

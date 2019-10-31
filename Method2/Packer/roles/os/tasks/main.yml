@@ -33,7 +33,7 @@
     mode: 0755
 
 - copy:
-    src: 01.update-iptables-common.sh
+    src: common-iptables.sh
     dest: "{{cloud_user_script_path}}/"
     mode: 0755
 

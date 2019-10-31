@@ -18,19 +18,23 @@ Here we are using:
 - MongoDB 4.0.7
 - Bash Scripting
 
-run the following command inside the Packer/ directory 
-<code>
+- run the following command inside the Packer directory 
+<code> 
 bash start.sh  
+<code/> 
+  
+- Once packer finishes its process then we need to run terraform commands inside the Terraform directory 
+<code> 
+terraform init
+<code/>   
+  
+- Once done, we need to execute the following:
+<code> 
+terraform plan 
 <code/>
   
-Once packer finishes its process then we need to run terraform commands inside the Terraform/ directory: 
-
-- <code> terraform init  <code/>
-  
-  
-Once done, we need to execute the following:
-- <code> terraform plan <code/>
-  
-Next we need to execute the following command to tell terraform to create our infrastructure in aws.
-- <code> terraform apply <code/>
+- Next we need to execute the following command to tell terraform to create our infrastructure in aws.
+<code> 
+terraform apply 
+<code/>
   

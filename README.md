@@ -1,12 +1,12 @@
 # mongodb
 
 # Method 1
-- Is a Bash Script that create an AWS instance on mongodb, the image is from docker hub
+Is a Bash Script that create an AWS instance on mongodb, the image is from docker hub
 
-to run the bash script use
+- to run the bash script use the below command:
 <code>
- bash start.sh
-<code/>
+bash start.sh
+</code>
   
 # Method 2
 Here we are using:
@@ -21,20 +21,17 @@ Here we are using:
 - run the following command inside the Packer directory 
 <code> 
 bash start.sh  
-<code/> 
-  
+</code> 
 - Once packer finishes its process then we need to run terraform commands inside the Terraform directory 
 <code> 
 terraform init
-<code/>   
-  
+</code>     
 - Once done, we need to execute the following:
 <code> 
 terraform plan 
-<code/>
-  
+</code> 
 - Next we need to execute the following command to tell terraform to create our infrastructure in aws.
 <code> 
 terraform apply 
-<code/>
+</code>
   
